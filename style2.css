@@ -1,0 +1,54 @@
+html, body{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(563.webp);
+    background-size: cover;
+  }
+  .header .logo{
+    margin: 0 0 0 20px;
+    padding: 30px;
+  }
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  #home{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100%; 
+    background-size: cover;
+    background-repeat: none;
+    background-position: top 0px right -200px left -100px;
+    flex-direction: column;
+  }
+ #home-text{
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 200px;
+    font:bolder;
+  }
+  #home h4{
+    font-size: 20px;
+    color:rgb(142, 252, 181);
+  }
+  #home h1{
+    font-size: 40px;
+    color: aqua;
+  }
+  #home p{
+    font-size: 15px;
+    color: rgb(244, 244, 244);
+  }
+  button{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px;
+    background-color:rgb(8, 149, 219);
+    border-radius: 30px;
+    width: 150px;
+  }
